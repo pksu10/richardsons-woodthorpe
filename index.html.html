@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richardsons of Woodthorpe | Quality Butchers</title>
+<style>
+:root{--green:#263f32;--deep:#192d24;--cream:#f7f3e9;--gold:#c7a66a;--ink:#282820;--muted:#6c6a60}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{background:var(--deep);color:#fff;padding:18px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:5}
+.logo{font-size:1.25rem;letter-spacing:.04em;font-weight:bold}.logo span{display:block;color:var(--gold);font: .68rem Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
+nav{display:flex;gap:24px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font: .88rem Arial,sans-serif}nav a:hover{color:var(--gold)}
+.hero{min-height:570px;display:grid;grid-template-columns:1.05fr .95fr;background:var(--green);color:white}
+.hero-copy{padding:90px 10% 80px 14%;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font: .75rem Arial,sans-serif}
+h1{font-size:clamp(2.7rem,5vw,4.8rem);line-height:1.05;margin:18px 0 24px;font-weight:normal}
+.hero p{font-size:1.12rem;max-width:470px;color:#e8e5dc}
+.button{display:inline-block;background:var(--gold);color:#17271f;text-decoration:none;padding:13px 22px;margin-top:18px;font: bold .85rem Arial,sans-serif;letter-spacing:.04em;width:max-content}
+.hero-image{background:linear-gradient(0deg,rgba(0,0,0,.18),rgba(0,0,0,.08)),url('https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=1400&q=85') center/cover;min-height:400px}
+section{padding:76px 8%}.intro{text-align:center;max-width:780px;margin:auto}.intro h2,.section-title{font-size:2.4rem;font-weight:normal;margin:10px 0 18px;color:var(--green)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px}.card{background:#fff;padding:30px 26px;border-top:3px solid var(--gold)}.card h3{font-size:1.35rem;color:var(--green);margin:0 0 10px}.card p{color:var(--muted);margin:0}
+.about{background:#eee8d9;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about img{width:100%;height:390px;object-fit:cover}.about p{color:#56564d}
+.products{background:#fff}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}.product{background:var(--cream);padding:26px}.product h3{color:var(--green);margin:0 0 8px}
+.contact{background:var(--green);color:white}.contact .section-title{color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.contact p{color:#e8e5dc}.contact strong{color:var(--gold)}
+footer{background:var(--deep);color:#d8d5cb;text-align:center;padding:25px;font: .8rem Arial,sans-serif}
+.note{font: .8rem Arial,sans-serif;color:#8b806b;margin-top:22px}
+@media(max-width:760px){header{align-items:flex-start;flex-direction:column}nav{gap:14px}.hero{grid-template-columns:1fr}.hero-copy{padding:65px 8%}.hero-image{min-height:280px}.cards,.product-grid,.about,.contact-grid{grid-template-columns:1fr}section{padding:55px 7%}.about img{height:270px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">RICHARDSONS <span>of Woodthorpe</span></div>
+  <nav><a href="#home">Home</a><a href="#about">About</a><a href="#products">Our Products</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow">A local butcher concept</div>
+    <h1>Good food.<br>Good people.<br>Local tradition.</h1>
+    <p>A welcoming place to discover quality butcher's products and friendly local service in Woodthorpe.</p>
+    <a class="button" href="#contact">GET IN TOUCH</a>
+  </div>
+  <div class="hero-image" role="img" aria-label="Fresh butcher's produce"></div>
+</section>
+<section>
+  <div class="intro">
+    <div class="eyebrow">Welcome to Richardsons</div>
+    <h2>Your local butcher in Woodthorpe</h2>
+    <p>This website concept gives customers a simple way to learn about the shop, explore the kinds of products on offer and find contact details before visiting.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><h3>Quality</h3><p>A focus on good ingredients and carefully prepared products.</p></article>
+    <article class="card"><h3>Local service</h3><p>A friendly neighbourhood shop for everyday favourites and special occasions.</p></article>
+    <article class="card"><h3>Choice</h3><p>A range of butcher's products to suit family meals and weekend treats.</p></article>
+  </div>
+</section>
+<section class="about" id="about">
+  <div>
+    <div class="eyebrow">About the shop</div>
+    <h2 class="section-title">A familiar local stop</h2>
+    <p>Richardsons of Woodthorpe is presented here as a local butcher's shop serving its community. The aim of this design is to make useful information easy to find and give the business a clear online presence.</p>
+    <p>All business history, product details and photographs should be checked and approved by the owners before this concept is published as an official website.</p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=1100&q=85" alt="Prepared food ingredients">
+</section>
+<section class="products" id="products">
+  <div class="intro">
+    <div class="eyebrow">A taste of what's on offer</div>
+    <h2>Our Products</h2>
+    <p>Example product categories for the website layout. The shop should confirm its actual range.</p>
+  </div>
+  <div class="product-grid">
+    <article class="product"><h3>Fresh meat</h3><p>Everyday cuts and options for family meals.</p></article>
+    <article class="product"><h3>Sausages & burgers</h3><p>Butcher-style favourites for the grill or the kitchen.</p></article>
+    <article class="product"><h3>Pies & ready-to-cook</h3><p>Convenient meal ideas for busy days.</p></article>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="contact-grid">
+    <div>
+      <div class="eyebrow">Visit or get in touch</div>
+      <h2 class="section-title">Find us</h2>
+      <p><strong>Richardsons of Woodthorpe</strong><br>57 Moorcroft Road<br>Woodthorpe, York<br>YO24 2RQ</p>
+      <p><strong>Telephone:</strong> 01904 707876</p>
+    </div>
+    <div>
+      <h2 class="section-title">Opening times</h2>
+      <p>Tuesday – Friday: 7am – 4pm<br>Saturday: 7am – 3pm<br>Monday & Sunday: Closed</p>
+      <p class="note">Contact details and opening times are example information and must be confirmed by the business before publication.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer>© Richardsons of Woodthorpe — Website concept</footer>
+</body>
+</html>
